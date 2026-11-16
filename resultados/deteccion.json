@@ -1,0 +1,119 @@
+{
+  "historial_real": {
+    "cambios_referencia": 57,
+    "transiciones_con_cambios": 15,
+    "detectados_correctamente": 57,
+    "no_detectados": 0,
+    "falsos_positivos": 0,
+    "cambios_de_tipo_detectados": [
+      {
+        "fecha": "2020-05-07T09:37:24",
+        "archivo": "COVID 19/old_series/ccaa_covid19_datos_isciii.csv",
+        "columna": "Fecha",
+        "detalle": "fecha → texto"
+      },
+      {
+        "fecha": "2020-05-07T09:39:52",
+        "archivo": "COVID 19/old_series/ccaa_covid19_datos_isciii.csv",
+        "columna": "Fecha",
+        "detalle": "texto → fecha"
+      }
+    ]
+  },
+  "prueba_controlada": {
+    "versiones_base": [
+      "nacional/0244_20201016T161326.csv",
+      "ccaa_nueva/0052_20210112T181005.csv",
+      "ccaa_antigua/0008_20200414T093538.csv",
+      "ccaa_antigua/0027_20200502T100302.csv",
+      "nacional/0211_20200831T161437.csv",
+      "nacional/0458_20210811T163146.csv",
+      "ccaa_nueva/0259_20220216T180420.csv",
+      "provincias/0127_20210528T171344.csv",
+      "provincias/0025_20200904T081854.csv",
+      "nacional/0492_20210928T155311.csv",
+      "nacional/0006_20200315T130306.csv",
+      "nacional/0166_20200629T154406.csv",
+      "nacional/0227_20200923T184414.csv",
+      "nacional/0589_20220224T180712.csv",
+      "nacional/0201_20200817T154212.csv",
+      "provincias/0042_20201113T191304.csv",
+      "nacional/0024_20200322T115341.csv",
+      "provincias/0126_20210527T164947.csv",
+      "ccaa_nueva/0041_20201120T084617.csv",
+      "nacional/0431_20210705T165543.csv",
+      "ccaa_nueva/0211_20211112T165607.csv",
+      "nacional/0516_20211103T181014.csv",
+      "ccaa_nueva/0110_20210430T134613.csv",
+      "ccaa_nueva/0128_20210608T170752.csv",
+      "ccaa_nueva/0168_20210819T161911.csv",
+      "ccaa_antigua/0030_20200505T092014.csv",
+      "nacional/0157_20200620T150844.csv",
+      "ccaa_nueva/0095_20210331T154505.csv",
+      "nacional/0184_20200723T152125.csv",
+      "nacional/0599_20220315T140357.csv"
+    ],
+    "por_tipo": {
+      "Columna añadida": {
+        "ensayos": 150,
+        "cambios_esperados": 150,
+        "detectados": 150,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Columna eliminada": {
+        "ensayos": 150,
+        "cambios_esperados": 150,
+        "detectados": 150,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Columna renombrada": {
+        "ensayos": 150,
+        "cambios_esperados": 300,
+        "detectados": 300,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Tipo modificado": {
+        "ensayos": 150,
+        "cambios_esperados": 150,
+        "detectados": 150,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Orden modificado": {
+        "ensayos": 150,
+        "cambios_esperados": 150,
+        "detectados": 150,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Solo datos (control)": {
+        "ensayos": 150,
+        "cambios_esperados": 0,
+        "detectados": 0,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Nulos (control)": {
+        "ensayos": 150,
+        "cambios_esperados": 0,
+        "detectados": 0,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 100.0
+      },
+      "Formato de fecha": {
+        "ensayos": 150,
+        "cambios_esperados": 150,
+        "detectados": 0,
+        "falsos_positivos": 0,
+        "acierto_exacto_pct": 0.0
+      }
+    },
+    "tasa_acierto_pct": 100.0,
+    "ensayos_acertados": 1050,
+    "ensayos": 1050,
+    "tasa_si_se_cuenta_formato_pct": 87.5
+  }
+}

@@ -1,0 +1,13 @@
+# Credenciales
+.env
+
+# Datos descargados y generados (se regeneran con los scripts; ver README)
+datasets/
+modelos/
+chroma/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

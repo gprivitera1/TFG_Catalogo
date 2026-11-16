@@ -1,0 +1,1309 @@
+{
+ "_instrucciones": "Juicios de relevancia de las 100 consultas de prueba (Anexo A). Regla: cada dataset se anota con etiquetas temáticas y un nivel territorial; un dataset es relevante para una consulta si tiene todas las etiquetas de la consulta y, cuando la consulta fija un nivel, ese nivel. Para las consultas muy específicas se completa 'relevantes' con la lista explícita de archivos y esa lista reemplaza a la regla. 'relevantes_segun_tesis' es la cantidad informada en la Tabla X y sirve para controlar la anotación.",
+ "niveles_sugeridos": [
+  "nacional",
+  "comunidad",
+  "provincia",
+  "municipio",
+  "otro"
+ ],
+ "datasets": {
+  "AUT/AUT-2008-2015.csv": {
+   "nombre": "AUT 2008 2015",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "AUT/AUT-2016.csv": {
+   "nombre": "AUT 2016",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/EESS_horario_flexible_habitual.csv": {
+   "nombre": "EESS horario flexible habitual",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ERTE_fuerza_mayor_sectores.csv": {
+   "nombre": "ERTE fuerza mayor sectores",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/alojamientos_turisticos_boe_2020_4194.csv": {
+   "nombre": "alojamientos turisticos boe 2020 4194",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/areas_descanso_carreteras.csv": {
+   "nombre": "areas descanso carreteras",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_camas_uci_2017.csv": {
+   "nombre": "ccaa camas uci 2017",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_ERTE.csv": {
+   "nombre": "ccaa covid19 ERTE",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_datos_isciii_nueva_serie.csv": {
+   "nombre": "ccaa covid19 datos isciii nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_datos_sanidad_nueva_serie.csv": {
+   "nombre": "ccaa covid19 datos sanidad nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_fallecidos_por_fecha_defuncion_nueva_serie.csv": {
+   "nombre": "ccaa covid19 fallecidos por fecha defuncion nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_fallecidos_por_fecha_defuncion_nueva_serie_long.csv": {
+   "nombre": "ccaa covid19 fallecidos por fecha defuncion nueva serie long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_fallecidos_por_fecha_defuncion_nueva_serie_original.csv": {
+   "nombre": "ccaa covid19 fallecidos por fecha defuncion nueva serie original",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_mascarillas.csv": {
+   "nombre": "ccaa covid19 mascarillas",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_covid19_test_realizados.csv": {
+   "nombre": "ccaa covid19 test realizados",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_de_declaracion_covid19_datos_isciii_nueva_serie.csv": {
+   "nombre": "ccaa de declaracion covid19 datos isciii nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_ia14d.csv": {
+   "nombre": "ccaa ia14d",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_ingresos_camas_convencionales_uci.csv": {
+   "nombre": "ccaa ingresos camas convencionales uci",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_pcr_realizadas_diarias.csv": {
+   "nombre": "ccaa pcr realizadas diarias",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas.csv": {
+   "nombre": "ccaa vacunas",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas_dosis_recuerdo.csv": {
+   "nombre": "ccaa vacunas dosis recuerdo",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas_grupos_etarios_1_dosis.csv": {
+   "nombre": "ccaa vacunas grupos etarios 1 dosis",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas_grupos_etarios_pauta_completa.csv": {
+   "nombre": "ccaa vacunas grupos etarios pauta completa",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas_pediatricas_5_11.csv": {
+   "nombre": "ccaa vacunas pediatricas 5 11",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/ccaa_vacunas_personas_institucionalizadas.csv": {
+   "nombre": "ccaa vacunas personas institucionalizadas",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/contratos_emergencia_sanidad.csv": {
+   "nombre": "contratos emergencia sanidad",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/grupos_edad_ia14d.csv": {
+   "nombre": "grupos edad ia14d",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/nacional_casos_personal_sanitario.csv": {
+   "nombre": "nacional casos personal sanitario",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/nacional_covid19.csv": {
+   "nombre": "nacional covid19",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/nacional_covid19_datos_sanidad_nueva_serie.csv": {
+   "nombre": "nacional covid19 datos sanidad nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/nacional_covid19_datos_sanidad_nueva_serie_grupos_edad.csv": {
+   "nombre": "nacional covid19 datos sanidad nueva serie grupos edad",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ZBS_confinamiento_parcial_madrid_2020-09-21.csv": {
+   "nombre": "ZBS confinamiento parcial madrid 2020 09 21",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_altas.csv": {
+   "nombre": "ccaa covid19 altas",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_altas_long.csv": {
+   "nombre": "ccaa covid19 altas long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_altas_long_old.csv": {
+   "nombre": "ccaa covid19 altas long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_altas_old.csv": {
+   "nombre": "ccaa covid19 altas old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_casos.csv": {
+   "nombre": "ccaa covid19 casos",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_casos_long.csv": {
+   "nombre": "ccaa covid19 casos long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_casos_long_old.csv": {
+   "nombre": "ccaa covid19 casos long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_casos_old.csv": {
+   "nombre": "ccaa covid19 casos old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_pcr.csv": {
+   "nombre": "ccaa covid19 confirmados pcr",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_pcr_long.csv": {
+   "nombre": "ccaa covid19 confirmados pcr long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_pcr_long_old.csv": {
+   "nombre": "ccaa covid19 confirmados pcr long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_pcr_old.csv": {
+   "nombre": "ccaa covid19 confirmados pcr old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_test.csv": {
+   "nombre": "ccaa covid19 confirmados test",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_test_long.csv": {
+   "nombre": "ccaa covid19 confirmados test long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_test_long_old.csv": {
+   "nombre": "ccaa covid19 confirmados test long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_confirmados_test_old.csv": {
+   "nombre": "ccaa covid19 confirmados test old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_datos_isciii.csv": {
+   "nombre": "ccaa covid19 datos isciii",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_fallecidos.csv": {
+   "nombre": "ccaa covid19 fallecidos",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_fallecidos_long.csv": {
+   "nombre": "ccaa covid19 fallecidos long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_fallecidos_long_old.csv": {
+   "nombre": "ccaa covid19 fallecidos long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_fallecidos_old.csv": {
+   "nombre": "ccaa covid19 fallecidos old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_hospitalizados.csv": {
+   "nombre": "ccaa covid19 hospitalizados",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_hospitalizados_long.csv": {
+   "nombre": "ccaa covid19 hospitalizados long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_hospitalizados_long_old.csv": {
+   "nombre": "ccaa covid19 hospitalizados long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_hospitalizados_old.csv": {
+   "nombre": "ccaa covid19 hospitalizados old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_positivos_asintomaticos.csv": {
+   "nombre": "ccaa covid19 positivos asintomaticos",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_positivos_asintomaticos_long.csv": {
+   "nombre": "ccaa covid19 positivos asintomaticos long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_uci.csv": {
+   "nombre": "ccaa covid19 uci",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_uci_long.csv": {
+   "nombre": "ccaa covid19 uci long",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_uci_long_old.csv": {
+   "nombre": "ccaa covid19 uci long old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/ccaa_covid19_uci_old.csv": {
+   "nombre": "ccaa covid19 uci old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/municipios_distritos_madrid_casos.csv": {
+   "nombre": "municipios distritos madrid casos",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/nacional_covid19_old.csv": {
+   "nombre": "nacional covid19 old",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/nacional_covid19_rango_edad.csv": {
+   "nombre": "nacional covid19 rango edad",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/old_series/nota_nacional_covid_19_rango_edad.csv": {
+   "nombre": "nota nacional covid 19 rango edad",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincia_covid19_ERTE.csv": {
+   "nombre": "provincia covid19 ERTE",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_covid19_datos_isciii_nueva_serie.csv": {
+   "nombre": "provincias covid19 datos isciii nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_covid19_datos_sanidad_nueva_serie.csv": {
+   "nombre": "provincias covid19 datos sanidad nueva serie",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_estudio_prevalencia_anticuerpos_final.csv": {
+   "nombre": "provincias estudio prevalencia anticuerpos final",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_estudio_prevalencia_anticuerpos_primera_ronda.csv": {
+   "nombre": "provincias estudio prevalencia anticuerpos primera ronda",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_estudio_prevalencia_anticuerpos_primera_y_segunda_ronda.csv": {
+   "nombre": "provincias estudio prevalencia anticuerpos primera y segunda ronda",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/provincias_ocupacion_camas_uci.csv": {
+   "nombre": "provincias ocupacion camas uci",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/puntos_restauracion_comida_para_llevar.csv": {
+   "nombre": "puntos restauracion comida para llevar",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "COVID 19/talleres_reparacion_vehiculos_industriales.csv": {
+   "nombre": "talleres reparacion vehiculos industriales",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "Inmatriculaciones/listado-inmatriculaciones-iglesia-2022.csv": {
+   "nombre": "listado inmatriculaciones iglesia 2022",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "Presupuestos Participativos Madrid/codigos_proyectos_participativos_2016.csv": {
+   "nombre": "codigos proyectos participativos 2016",
+   "etiquetas": [],
+   "nivel": null
+  },
+  "dana-valencia/cincominutales-rambla-poyo-29102024.csv": {
+   "nombre": "cincominutales rambla poyo 29102024",
+   "etiquetas": [],
+   "nivel": null
+  }
+ },
+ "consultas": [
+  {
+   "id": 1,
+   "texto": "casos confirmados de COVID-19 por comunidad autónoma",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 16
+  },
+  {
+   "id": 2,
+   "texto": "contagios de coronavirus en cada región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 16
+  },
+  {
+   "id": 3,
+   "texto": "cuántas personas se infectaron en España",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 4,
+   "texto": "evolución diaria de positivos en las provincias",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 5,
+   "texto": "número de infectados por provincia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 6,
+   "texto": "serie histórica nacional de casos",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 7,
+   "texto": "contagios detectados mediante PCR por región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 7
+  },
+  {
+   "id": 8,
+   "texto": "casos confirmados por test rápido de anticuerpos",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 9
+  },
+  {
+   "id": 9,
+   "texto": "casos por tipo de prueba en cada provincia",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 10,
+   "texto": "infecciones entre médicos y enfermeras",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 11,
+   "texto": "casos de COVID-19 en el personal sanitario",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 12,
+   "texto": "brotes en los barrios de la capital",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 13,
+   "texto": "situación epidemiológica en los distritos de Madrid",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 14,
+   "texto": "muertes por coronavirus por comunidad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 9
+  },
+  {
+   "id": 15,
+   "texto": "fallecidos por fecha de defunción",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 15
+  },
+  {
+   "id": 16,
+   "texto": "cuántas personas murieron por la pandemia en España",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 5
+  },
+  {
+   "id": 17,
+   "texto": "mortalidad del virus en las provincias",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 18,
+   "texto": "defunciones diarias en cada región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 9
+  },
+  {
+   "id": 19,
+   "texto": "víctimas mortales de la COVID según la edad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 20,
+   "texto": "fallecimientos acumulados a nivel nacional",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 5
+  },
+  {
+   "id": 21,
+   "texto": "pacientes ingresados en hospitales por comunidad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 7
+  },
+  {
+   "id": 22,
+   "texto": "hospitalizaciones por coronavirus en todo el país",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 5
+  },
+  {
+   "id": 23,
+   "texto": "ingresos hospitalarios por provincia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 24,
+   "texto": "presión hospitalaria en cada región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 7
+  },
+  {
+   "id": 25,
+   "texto": "personas que necesitaron hospitalización",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 13
+  },
+  {
+   "id": 26,
+   "texto": "pacientes en cuidados intensivos por comunidad autónoma",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 7
+  },
+  {
+   "id": 27,
+   "texto": "ingresos en UCI a nivel nacional",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 5
+  },
+  {
+   "id": 28,
+   "texto": "enfermos críticos en intensivos por provincia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 29,
+   "texto": "ocupación de camas UCI por provincias",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 30,
+   "texto": "porcentaje de camas ocupadas por COVID",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 31,
+   "texto": "capacidad de camas de cuidados intensivos antes de la pandemia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 32,
+   "texto": "saturación de los hospitales",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 33,
+   "texto": "personas recuperadas de la COVID por comunidad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 34,
+   "texto": "curados del coronavirus",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 8
+  },
+  {
+   "id": 35,
+   "texto": "altas acumuladas de pacientes",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 8
+  },
+  {
+   "id": 36,
+   "texto": "número de PCR realizadas por comunidad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 37,
+   "texto": "tasa de positividad de las pruebas diagnósticas",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 38,
+   "texto": "test realizados por cada mil habitantes",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 39,
+   "texto": "pruebas de detección del virus hechas en cada región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 40,
+   "texto": "casos por PCR y antígenos en cada provincia",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 41,
+   "texto": "estudio de seroprevalencia por provincia",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 42,
+   "texto": "porcentaje de población con anticuerpos contra el virus",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 43,
+   "texto": "inmunidad de la población tras la primera ola",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 44,
+   "texto": "infectados que no tenían síntomas",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 45,
+   "texto": "positivos asintomáticos por comunidad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 46,
+   "texto": "incidencia acumulada a 14 días",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 4
+  },
+  {
+   "id": 47,
+   "texto": "velocidad de propagación del virus por región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 48,
+   "texto": "tasa de contagios por cada 100.000 habitantes",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 4
+  },
+  {
+   "id": 49,
+   "texto": "incidencia por grupos de edad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 50,
+   "texto": "zonas básicas de salud con restricciones",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 51,
+   "texto": "barrios confinados en Madrid",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 52,
+   "texto": "dosis de vacunas administradas por comunidad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 53,
+   "texto": "avance de la campaña de inmunización",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 54,
+   "texto": "personas con pauta completa de vacunación",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 55,
+   "texto": "vacunados por franja de edad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 4
+  },
+  {
+   "id": 56,
+   "texto": "vacunación de niños de 5 a 11 años",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 57,
+   "texto": "terceras dosis para mayores de 70 años",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 58,
+   "texto": "vacunas en residencias de ancianos",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 59,
+   "texto": "dosis entregadas de Pfizer y Moderna",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 60,
+   "texto": "pinchazos contra el covid en cada región",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 61,
+   "texto": "casos y fallecidos por grupo de edad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 62,
+   "texto": "impacto de la pandemia en las personas mayores",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 63,
+   "texto": "mascarillas repartidas por el Ministerio de Sanidad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 64,
+   "texto": "reparto de material de protección a las comunidades",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 65,
+   "texto": "compras de emergencia del gobierno en la crisis sanitaria",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 66,
+   "texto": "empresas adjudicatarias de contratos de Sanidad",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 67,
+   "texto": "gasto público en material sanitario",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 68,
+   "texto": "trabajadores afectados por un ERTE",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 69,
+   "texto": "regulación temporal de empleo por provincia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 70,
+   "texto": "impacto laboral de la pandemia por sectores de actividad",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 71,
+   "texto": "expedientes por fuerza mayor",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 3
+  },
+  {
+   "id": 72,
+   "texto": "personas en ERTE por comunidad autónoma",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 73,
+   "texto": "gasolineras abiertas durante el estado de alarma",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 74,
+   "texto": "estaciones de servicio con horario flexible",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 75,
+   "texto": "dónde repostar combustible durante el confinamiento",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 76,
+   "texto": "hoteles abiertos para trabajadores esenciales",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 77,
+   "texto": "alojamientos turísticos declarados servicio esencial",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 78,
+   "texto": "dónde comer siendo camionero en ruta",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 79,
+   "texto": "venta de comida preparada para llevar",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 80,
+   "texto": "talleres mecánicos para camiones",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 81,
+   "texto": "reparación de vehículos industriales",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 82,
+   "texto": "áreas de descanso en carreteras",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 83,
+   "texto": "paradas para transportistas en las autopistas",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 84,
+   "texto": "servicios para el transporte de mercancías durante el confinamiento",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 4
+  },
+  {
+   "id": 85,
+   "texto": "servicios esenciales durante el estado de alarma",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 5
+  },
+  {
+   "id": 86,
+   "texto": "bienes inscritos a nombre de la Iglesia católica",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 87,
+   "texto": "inmatriculaciones de templos por diócesis",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 88,
+   "texto": "propiedades registradas por los obispados",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 89,
+   "texto": "caudal de la rambla del Poyo",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 90,
+   "texto": "crecida del río en las inundaciones de Valencia",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 91,
+   "texto": "nivel del agua cada cinco minutos durante la DANA",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 92,
+   "texto": "autorizaciones de uso terapéutico en el deporte",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 93,
+   "texto": "sustancias prohibidas permitidas a deportistas",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 94,
+   "texto": "medicamentos autorizados a atletas por federación",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  },
+  {
+   "id": 95,
+   "texto": "proyectos de presupuestos participativos",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 96,
+   "texto": "propuestas ciudadanas de Decide Madrid",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 1
+  },
+  {
+   "id": 97,
+   "texto": "datos para comparar la pandemia entre comunidades autónomas",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 16
+  },
+  {
+   "id": 98,
+   "texto": "evolución de la primera ola en España",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 6
+  },
+  {
+   "id": 99,
+   "texto": "series del Instituto de Salud Carlos III",
+   "tipo": "L",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 4
+  },
+  {
+   "id": 100,
+   "texto": "comparar la incidencia entre regiones",
+   "tipo": "P",
+   "etiquetas": [],
+   "nivel": null,
+   "relevantes": null,
+   "relevantes_segun_tesis": 2
+  }
+ ]
+}

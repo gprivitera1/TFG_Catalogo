@@ -1,4 +1,12 @@
-streamlit
-psycopg[binary]
-pandas
-chromadb
+streamlit>=1.66
+psycopg[binary]>=3.2
+pandas>=2.2
+chromadb>=1.5,<2
+onnxruntime>=1.29
+tokenizers>=0.20
+orjson>=3.10
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+# Solo para medir la interfaz (scripts/exp_interfaz.py):
+# playwright>=1.45
