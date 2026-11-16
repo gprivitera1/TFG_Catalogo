@@ -3,28 +3,28 @@
     "archivos": 603,
     "versiones": 602,
     "descartadas_por_hash": 1,
-    "ingesta_max_s": 0.01,
-    "ingesta_media_s": 0.004
+    "ingesta_max_s": 0.014,
+    "ingesta_media_s": 0.005
   },
   "ccaa_nueva": {
     "archivos": 276,
     "versiones": 276,
     "descartadas_por_hash": 0,
-    "ingesta_max_s": 0.291,
-    "ingesta_media_s": 0.092
+    "ingesta_max_s": 0.391,
+    "ingesta_media_s": 0.122
   },
   "provincias": {
     "archivos": 143,
     "versiones": 143,
     "descartadas_por_hash": 0,
-    "ingesta_max_s": 0.829,
-    "ingesta_media_s": 0.177
+    "ingesta_max_s": 0.875,
+    "ingesta_media_s": 0.314
   },
   "ccaa_antigua": {
     "archivos": 47,
     "versiones": 46,
     "descartadas_por_hash": 1,
-    "ingesta_max_s": 0.118,
-    "ingesta_media_s": 0.022
+    "ingesta_max_s": 0.083,
+    "ingesta_media_s": 0.026
   }
 }

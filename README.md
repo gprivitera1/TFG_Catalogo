@@ -3,6 +3,8 @@
 Prototipo del Trabajo Final de Grado de Gonzalo Privitera (Licenciatura en Tecnologías de la Información,
 Universidad de Palermo, 2026). Tutor: Gonzalo Javier Diaz.
 
+Repositorio: https://github.com/gprivitera1/TFG_Catalogo
+
 El sistema versiona de forma incremental el historial real de cuatro series de COVID-19 de España
 (1.067 versiones publicadas entre 2020 y 2022), permite restaurar cualquier versión pasada por fecha,
 detecta los cambios estructurales entre versiones y ofrece búsqueda literal, semántica e híbrida

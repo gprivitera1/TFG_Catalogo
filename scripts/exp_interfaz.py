@@ -50,6 +50,7 @@ def main():
 
     rnd = random.Random(2026)
     t = {"Búsqueda": [], "Cambio de dataset": [], "Movimiento del slider": []}
+    detalle_slider = []
     with sync_playwright() as p:
         nav = p.chromium.launch()
         page = nav.new_page(viewport={"width": 1400, "height": 900})
@@ -58,6 +59,14 @@ def main():
         esperar_fin(page)
 
         entrada = page.get_by_label("Buscar dataset")
+        entrada.fill("calentamiento")
+        entrada.press("Enter")
+        esperar_fin(page)
+        selector = page.locator('[data-testid="stSelectbox"]')
+        for i in range(4):
+            selector.click()
+            page.locator('[role="option"]').nth(i).click()
+            esperar_fin(page)
         for q in BUSQUEDAS:
             entrada.fill(q)
             t0 = time.perf_counter()
@@ -86,10 +95,15 @@ def main():
             manija.press(tecla)
             esperar_fin(page)
             t["Movimiento del slider"].append((time.perf_counter() - t0) * 1000)
+            detalle_slider.append({"dataset_opcion": i // 10,
+                                   "ms": t["Movimiento del slider"][-1]})
         nav.close()
 
     resultados = {k: resumen(v) for k, v in t.items()}
+    resultados["detalle_slider"] = detalle_slider
     for k, r in resultados.items():
+        if k == "detalle_slider":
+            continue
         print(f"{k:22s} n={r['n']:3d} media {r['media']:6.0f} ms  mediana {r['mediana']:6.0f}  "
               f"P95 {r['p95']:6.0f}  máx {r['maximo']:6.0f}")
     DIR_RESULTADOS.mkdir(exist_ok=True)
